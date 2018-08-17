@@ -1,11 +1,11 @@
 #!/bin/bash
-# Installs Pulsus AndroidStudio Code Style into your AndroidStudio codestyles folder.
+# Installs Kobe AndroidStudio Code Style into your AndroidStudio codestyles folder.
 # Inspired by https://github.com/grandcentrix/AndroidCodeStyle
 
-echo "Installing Pulsus AndroidStudio code style..."
+echo "Installing Kobe AndroidStudio code style..."
 echo ""
 
-LATEST_CODE_STYLE="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )/styles/pulsus.xml"
+LATEST_CODE_STYLE="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )/styles/Kobe.xml"
 for TARGET_DIR in $HOME/Library/Preferences/AndroidStudio*         \
                   $HOME/Library/Preferences/AndroidStudioPreview*  \
                   ~/.AndroidStudio*/config                         \
@@ -24,4 +24,4 @@ done
 
 echo ""
 echo "Done."
-echo "Restart AndroidStudio. Go to Preferences->Editor->Code Style and apply Scheme 'pulsus'."
+echo "Restart AndroidStudio. Go to Preferences->Editor->Code Style and apply Scheme 'Kobe'."

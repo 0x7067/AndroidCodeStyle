@@ -32,7 +32,7 @@ Then you can create a PR to this repository.
 
 The PR should always contain:
 * Some information what have changed.
-* A updated [`pulsus.xml`](styles/pulsus.xml).
+* An updated [`Kobe.xml`](styles/Kobe.xml).
 
 ## License
 [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/legalcode)
